@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-import { Button } from '@mui/material'
 import Counter from './Counter'
+import Counter2 from './Counter2'
 
 function App() {
   return (
     <>
-      <div>
+      <div style={{marginBottom: '40px'}}>
         <Counter />
+      </div>
+      <div>
+        <Counter2 />
       </div>
     </>
   )
